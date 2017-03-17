@@ -30,7 +30,8 @@ def binaryToHex(binary):
         print("Error: Value entered is out of bounds of excepted values. To do ROS")
         return
 
-
+def setTarget(servoNumber, target):
+    return
 
 
 
