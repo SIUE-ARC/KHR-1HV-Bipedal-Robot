@@ -12,7 +12,7 @@ def intToHex(integer):
 
 def intToBinary(integer):
     try:
-        if(integer >= 0 & integer < 12313115):
+        if(integer >= 0 & integer < 256):
            return "{0:b}".format(integer)
         else:
             raise (ValueError)
@@ -21,10 +21,18 @@ def intToBinary(integer):
         return
 
 def binaryToHex(binary):
-    #try:
-    #if(binary >= )
-    return
+    try:
+        if(int(binary) >= 0 & int(binary) < 256):
+            return hex(int(binary,2))
+        else:
+            raise (ValueError)
+    except ValueError:
+        print("Error: Value entered is out of bounds of excepted values. To do ROS")
+        return
 
 
-print(intToBinary(8))
+
+
+
+print(binaryToHex('1010'))
 
