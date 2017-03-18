@@ -6,7 +6,8 @@ KHR-1HV Bipedal Robot files
 Short Term Goals
 --------------------------------
 1. Sniff the polulu's software and find out what command it sends to change the serial settings (Its not documentated and forces you to use there software) 
-
+2. Finish python scripts to constuct the commands that need to be sent on a RX TX line to the maestro.
+3. Start migrating to ROS 
 --------------------------------
 Goals
 --------------------------------
