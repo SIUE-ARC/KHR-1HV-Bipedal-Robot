@@ -1,6 +1,12 @@
 # KHR-1HV-Bipedal-Robot
 KHR-1HV Bipedal Robot files
 
+
+--------------------------------
+Short Term Goals
+--------------------------------
+1. Sniff the polulu's software and find out what command it sends to change the serial settings (Its not documentated and forces you to use there software) 
+
 --------------------------------
 Goals
 --------------------------------
