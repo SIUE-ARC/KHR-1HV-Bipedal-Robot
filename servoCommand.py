@@ -1,4 +1,3 @@
-
 #converts int to hex with at least 2 digits
 def intToHex(integer):
     try:
@@ -10,6 +9,7 @@ def intToHex(integer):
         print("Error: Value entered is out of bounds of excepted values. To do ROS")
         return
 
+#converts int to binary with at least 2 digits
 def intToBinary(integer):
     try:
         if(integer >= 0 & integer < 256):
@@ -20,6 +20,7 @@ def intToBinary(integer):
         print("Error: Value entered is out of bounds of excepted values. To do ROS")
         return
 
+#converts binary to hexadecimal with at least 2 digits
 def binaryToHex(binary):
     try:
         if(int(binary) >= 0 & int(binary) < 256):
@@ -30,9 +31,14 @@ def binaryToHex(binary):
         print("Error: Value entered is out of bounds of excepted values. To do ROS")
         return
 
-def setTarget(servoNumber, target):
+
+def setPosition(position):
     return
 
+def setHigh():return
+def setLow():return
+def setSpeed():return
+def setAcceleration():return
 
 
 print(binaryToHex('1010'))
